@@ -1,0 +1,43 @@
+Dependencies for Project 'boule', Target 'Simulation': (DO NOT MODIFY !)
+F (.\src\GLCD_16bitIF_STM32.c)(0x5199F7A6)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\h-I "C:\Program Files (x86)\Keil\ARM\RV31\INC"-I "C:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "C:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DSTM32F10X_XL-o .\obj\glcd_16bitif_stm32.o --omf_browse .\obj\glcd_16bitif_stm32.crf --depend .\obj\glcd_16bitif_stm32.d)
+I (C:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532C55CC)
+I (C:\Program Files (x86)\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C5A32)
+I (C:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Program Files (x86)\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C5A32)
+I (C:\Program Files (x86)\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C5A32)
+I (C:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532C55CA)
+I (.\h\GLCD.h)(0x517927A8)
+I (.\h\Font_6x8_h.h)(0x4CADA786)
+I (.\h\Font_16x24_h.h)(0x4FA7F086)
+F (.\src\main.c)(0x537C57CA)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\h-I "C:\Program Files (x86)\Keil\ARM\RV31\INC"-I "C:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "C:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DSTM32F10X_XL-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532C55CC)
+I (C:\Program Files (x86)\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C5A32)
+I (C:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Program Files (x86)\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C5A32)
+I (C:\Program Files (x86)\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C5A32)
+I (C:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532C55CA)
+I (.\h\GLCD.h)(0x517927A8)
+I (.\h\jeu.h)(0x5178D920)
+I (.\h\boule.h)(0x537C027D)
+I (.\h\globales.h)(0x537C52B7)
+I (.\h\ext_globales.h)(0x5178F7C2)
+F (.\src\boule.c)(0x537C02D1)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\h-I "C:\Program Files (x86)\Keil\ARM\RV31\INC"-I "C:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "C:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DSTM32F10X_XL-o .\obj\boule.o --omf_browse .\obj\boule.crf --depend .\obj\boule.d)
+I (.\h\ext_globales.h)(0x5178F7C2)
+I (.\h\GLCD.h)(0x517927A8)
+I (.\h\boule.h)(0x537C027D)
+I (.\h\jeu.h)(0x5178D920)
+F (.\src\system_stm32f10x.c)(0x4CF752D0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\h-I "C:\Program Files (x86)\Keil\ARM\RV31\INC"-I "C:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "C:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"-DSTM32F10X_XL-o .\obj\system_stm32f10x.o --omf_browse .\obj\system_stm32f10x.crf --depend .\obj\system_stm32f10x.d)
+I (C:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x532C55CC)
+I (C:\Program Files (x86)\Keil\ARM\CMSIS\Include\core_cm3.h)(0x532C5A32)
+I (C:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C819B4)
+I (C:\Program Files (x86)\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532C5A32)
+I (C:\Program Files (x86)\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532C5A32)
+I (C:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532C55CA)
+F (.\src\startup_stm32f10x_hd.s)(0x4CF752D0)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Program Files (x86)\Keil\ARM\RV31\INC"-I "C:\Program Files (x86)\Keil\ARM\CMSIS\Include"-I "C:\Program Files (x86)\Keil\ARM\Inc\ST\STM32F10x"--list .\lst\startup_stm32f10x_hd.lst --xref -o .\obj\startup_stm32f10x_hd.o --depend .\obj\startup_stm32f10x_hd.d)
+F (.\h\ext_globales.h)(0x5178F7C2)()
+F (.\h\Font_6x8_h.h)(0x4CADA786)()
+F (.\h\Font_16x24_h.h)(0x4FA7F086)()
+F (.\h\GLCD.h)(0x517927A8)()
+F (.\h\globales.h)(0x537C52B7)()
+F (.\h\boule.h)(0x537C027D)()
+F (.\h\jeu.h)(0x5178D920)()
