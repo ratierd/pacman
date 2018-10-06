@@ -1,11 +1,10 @@
 /**
   ******************************************************************************************************************
   * @file    boule.c 
-  * @author  R.NOHE     IUT Informatique La Rochelle
+  * @author  David Ratier
   * @version v1.0
   * @date    25 avril 2013
-  * @modification
-  * @brief   définitions pour la description et le pilotage du vaisseau
+  * @brief   dï¿½finitions pour la description et le pilotage du vaisseau
   ******************************************************************************************************************/
 
 #include "ext_globales.h"

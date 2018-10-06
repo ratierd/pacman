@@ -8,10 +8,6 @@
 /* end user licence from KEIL for a compatible version of KEIL software       */
 /* development tools. Nothing else gives you the right to use this software.  */
 /******************************************************************************/
-/* Modifications: 7 avril 2012 R.NOHE																					*/
-/*										prise en compte du mode paysage/portrait								*/
-/*								20 mai 2013  nettoyage																			*/
-/******************************************************************************/
 
 #include "stm32f10x.h"
 #include "GLCD.h"
@@ -578,7 +574,7 @@ void GLCD_ClearLn (unsigned int ln, unsigned char fi) {
 *                   y:        vertical position                                *
 *                   w:        maximum width of bargraph (in pixels)            *
 *                   val:      value of active bargraph (in 1/1024)             *
-*                   //val:      value of active bargraph (in pixels) à condition de commenter la ligne  val = (val * w) >> 10;           *
+*                   //val:      value of active bargraph (in pixels) ï¿½ condition de commenter la ligne  val = (val * w) >> 10;           *
 *   Return:                                                                    *
 *******************************************************************************/
 

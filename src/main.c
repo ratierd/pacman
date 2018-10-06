@@ -1,10 +1,9 @@
 /**
   ******************************************************************************************************************
   * @file    main.c 
-  * @author  R.NOHE     IUT Informatique La Rochelle
+  * @author  David Ratier
   * @version v1.0
   * @date    20 mai 2013
-  * @modification	rien pour le moment
   * @brief   programme simple pour utiliser les fonctions graphiques de l'affiche LCD de la carte MCBSTM32EXL
   ******************************************************************************************************************/
 
